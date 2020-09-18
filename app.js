@@ -27,7 +27,7 @@ const cards = [
 
 const $cardPicker = $('<div>').addClass('cardPicker');
 $('body').append($cardPicker);
-$cardPicker.text('Add random image');
+$cardPicker.text('Click here to choose a random tarot card.');
 $cardPicker.css('cursor', 'pointer');
 
 // let randomCard = [Math.floor(Math.random() * cards.length)];
